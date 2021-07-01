@@ -184,8 +184,8 @@
                     <iframe name="hidden_iframe" id="hidden_iframe"
                     style="display:none;" onload="if(submitted)
                     {window.location='index-2.html';}"></iframe>
-                    <form action="https://docs.google.com/forms/d/e/1FAIpQLScZ0Erqe3lQjEUXmg7unctwWhdtV_R_xdeBTVtyyzrPj2zErA/viewform?usp=sf_link" method="post"
-                    target="hidden_iframe" onsubmit="submitted=true;">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLScZ0Erqe3lQjEUXmg7unctwWhdtV_R_xdeBTVtyyzrPj2zErA/viewform?usp=sf_link" method="POST"
+                    target="hidden_iframe" onsubmit="submitted=true;" id="form">
                     <div class="learn__form">
                         <h3 class="learn__title">Форма обратно связи</h3>
 
@@ -195,7 +195,7 @@
                         <label for="email">Почта: </label>
                         <input type="email" aria-describedby="i6 i7" name="entry.2142821833" required><br>
 
-                        <label for="text">Ваш вопрос: </label>
+                        <label for="text">Поле для доп. информации: </label>
                         <textarea cols="30" rows="10" aria-describedby="i10 i11" name="entry.323217530" required></textarea><br>
                         <button class="learn__button" type="submit" >Отправить</button>
                     </div>
